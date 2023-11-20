@@ -1,1 +1,69 @@
 /* Add your own styles */
+header
+{
+    display: flex;
+    align-items: center;
+    background-color:rgb(119, 135, 241);
+    margin: 10px;
+    justify-content: center;
+    height: 200px;
+}
+
+header h1
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(15, 228, 132);
+    font-size: 60px;
+    font-family: "Brush Script MT", cursive;
+  }
+
+  header img
+  {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+
+  main {
+    display :flex;
+    background-color:rgb(204, 220, 251);
+    margin: 10px 100px 10px 100px;
+    height: 150px;
+    height: auto;
+    padding: 20px;
+    justify-content:center;
+
+  }
+
+  #country{
+    width: 500px;
+    height: 40px;
+  }
+
+  .btn1
+  {
+    margin-top: 10px;
+    margin-left: 10%;
+    height: 50px;
+    width:50%;
+    background-color: rgb(26, 218, 23);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #result{
+    margin: 10px;
+    font-size: 20px;
+    padding:5px;
+    color: white;
+    border-top: 1px black solid;
+    text-align: center;
+
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
